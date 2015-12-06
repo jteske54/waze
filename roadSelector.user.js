@@ -1035,7 +1035,7 @@ function genExptrTxt(tree)
 			result = 'Manual Locks ' + IntegerOps[tree.op] + ' ' + tree.id;
 			break;
 		case "TrLock":
-			result = 'Traffic Locks ' + IntegerOps[tree.op] + ' ' + tree.id;
+			result = 'Trafic Locks ' + IntegerOps[tree.op] + ' ' + tree.id;
 			break;
 		case "Speed":
 			if (typeof(tree.op) === "boolean") {
@@ -2006,7 +2006,7 @@ function roadSelector_init()
 					 + '<tr><td><b>Manual Lock</b>&nbsp;<select id="opRSManLock" style="padding:0px 0px; height:20px"></select>&nbsp;'
 						+ '<select id="selRSManLock" style="padding:0px 0px; height:20px"></select></td>'
 						+ '<td><button class="btn btn-default" id="btnRSAddManLock" style="padding:0px 10px; height:20px">Add</button>'
-					 + '<tr><td><b>Traffic Lock</b>&nbsp;<select id="opRSTrLock" style="padding:0px 0px; height:20px"></select>&nbsp;'
+					 + '<tr><td><b>Trafic Lock</b>&nbsp;<select id="opRSTrLock" style="padding:0px 0px; height:20px"></select>&nbsp;'
 						+ '<select id="selRSTrLock" style="padding:0px 0px; height:20px"></select></td>'
 						+ '<td><button class="btn btn-default" id="btnRSAddTrLock" style="padding:0px 10px; height:20px">Add</button></td></tr>'
 					 + '<tr><td><b>Speed limit</b>&nbsp;<select id="opRSSpeed" style="padding:0px 0px; height:20px"></select> <b>dir.</b> '
